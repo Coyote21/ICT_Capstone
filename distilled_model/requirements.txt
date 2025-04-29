@@ -1,0 +1,9 @@
+transformers
+tqdm
+datasets
+evaluate
+matplotlib
+numpy
+accelerate
+hf_xet
+streamlit
