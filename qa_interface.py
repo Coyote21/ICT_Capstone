@@ -6,8 +6,8 @@ from transformers import pipeline
 def load_qa_model():
     return pipeline(
         'question-answering', 
-        model='../distilled_model',    # Local model path
-        tokenizer='../distilled_model' # Local tokenizer path
+        model='./distilled_model',    # Local model path
+        tokenizer='./distilled_model' # Local tokenizer path
     )
 
 def main():
